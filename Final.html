@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday card</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+        
+        /* Love-themed modifications */
+        .wishes p {
+            color: #ff71b6;
+            text-shadow: 0 0 2px rgba(255, 113, 182, 0.3);
+        }
+        
+        .name {
+            color: #ff4d94 !important;
+            font-style: italic;
+        }
+        
+        .happy, .bday, .toyou {
+            color: #ff71b6;
+            text-shadow: 0 0 10px rgba(255, 113, 182, 0.5);
+        }
+        
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .birthdayCard {
+                width: 90%;
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            
+            .front-text h2 {
+                font-size: 2rem;
+            }
+            
+            .front-text h3 {
+                font-size: 1.5rem;
+            }
+            
+            .wishes p {
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+            
+            .img img {
+                max-width: 80%;
+                height: auto;
+            }
+            
+            .star, .ballon, .cat {
+                max-width: 100px;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .birthdayCard {
+                width: 95%;
+            }
+            
+            .front-text h2 {
+                font-size: 1.8rem;
+            }
+            
+            .front-text h3 {
+                font-size: 1.3rem;
+            }
+            
+            .wishes p {
+                font-size: 0.8rem;
+                padding: 8px;
+            }
+            
+            .star, .ballon, .cat {
+                max-width: 80px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="ZUiY.gif" alt="stars" class="star">
+    <img src="5l03.gif" alt="ballon" class="ballon">
+    <div class="container">
+        <div class="birthdayCard">
+            <div class="cardFront">
+                <div class="front-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2>
+                    <h3 class="toyou">to you!</h3>
+                </div>
+                <div class="wrap-deco">
+                    <div class="decorations"></div>
+                    <div class="decorationsTwo"></div>
+                </div>
+                <div class="wrap-decoTwo">
+                    <div class="decorations"></div>
+                    <div class="decorationsThree"></div>
+                </div>
+                <div class="plate">
+                    <div class="cake"></div>
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <div class="cardInside">
+                <div class="img">
+                    <img src="suhani.jpg" alt="Brotherpic" class="bdyboy">
+                    <img src="6ob.gif" alt="confetti" class="confetti">
+                </div>
+                <div class="inside-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2>
+                    <h3 class="toyou">to you!</h3>
+                </div>
+                <div class="wishes">
+                    <p>Dear love</p>
+                    <p>Happy Birthday to the most beautiful girl in my world! You are my sunshine, 
+                        my happiness, and my greatest adventure. I can't wait to make today as amazing as you are!.</p>
+                        <p class="name">~ Your sona</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="4SHX.gif" alt="cat" class="cat">
+
+</body>
+
+</html>
